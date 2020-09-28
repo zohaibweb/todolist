@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    line-height: 1.45;
+    font-family: 'Baloo Tammudu 2', cursive;
+    letter-spacing: .5px;
+    background-color: #352f5b;
+}
+.container{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    max-width: 40rem;
+    margin-top: 10rem;
+    color: beige;
+    background-color: rgba(0,0,0,0.2);
+}
+.header{
+   
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 3.5rem;
+}
+input[type=search],
+input[type=text]{
+    width: 90%;
+    font-size: 2.2rem;
+    border: none;
+    background-color:rgba(0,0,0,0.2);
+    font-family: inherit;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    color: beige;
+}
+.list{
+    margin-left: 2rem;
+    width: 90%;
+    list-style: none;
+    font-size: 2.2rem;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+}
+.listItem i{
+    margin-right: auto;
+    font-weight: 400;
+}
+.delete{
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+}
+.add{
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.label{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    display: block;
+    font-size: 2.3rem;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-align: center;
+  }
+
+  .filtered{
+      display: none;
+  }
